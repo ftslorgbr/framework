@@ -1,0 +1,27 @@
+{
+	"name" : "ftsl/framework",
+	"description" : "Extensions of Zend Framework 3",
+	"type" : "library",
+	"keywords" : [
+		"framework",
+		"mvc",
+		"zend"
+	],
+	"homepage" : "https://github.com/ftsl/framework",
+	"license" : "AGPL-3.0-or-later",
+	"autoload" : {
+		"psr-4" : {
+			"Ftsl\\" : "Ftsl/src"
+		}
+	},
+	"require" : {
+		"php" : ">=7.0",
+		"zendframework/zend-db" : "^2.8.2",
+		"zendframework/zend-mvc" : "^3.0.1",
+		"zendframework/zend-form" : "^2.9",
+		"zendframework/zend-inputfilter" : "^2.9",
+		"zendframework/zend-mvc-plugins" : "^1.0",
+		"zendframework/zend-session" : "^2.8",
+		"fgsl/mock" : "^1.2.0"
+	}
+}
